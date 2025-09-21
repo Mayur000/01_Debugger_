@@ -10,6 +10,7 @@ import SocietyDashboard from './pages/SocietyDashboard';
 import ConservationHub from './pages/ConservationHub';
 import { authAPI } from './services/authAPI';
 
+
 function App() {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
